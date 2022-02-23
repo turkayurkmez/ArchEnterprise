@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jPcH+susR+oq3NPrU/bLjaPmKRjiLgn2g3Fvx3y6cDd6SsPAavu9XAzkAQGcLGZ738qG+dZ0TJsEOVaqIU3z4w==",
+  "dgSpecHash": "baTNHDUS2vDM5mtzR8njKPlPFGrtAJpgT8GOAKL8ZQYE6OMcLES9AOClDIF0/hf1YdTmDyhez8kLgR6a15C1IA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\EA.WebAPI\\EA.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\Presentation\\EA.WebAPI\\EA.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\turka\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\turka\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

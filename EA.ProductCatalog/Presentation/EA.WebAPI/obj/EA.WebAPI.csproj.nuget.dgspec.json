@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\EA.WebAPI\\EA.WebAPI.csproj": {}
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\Presentation\\EA.WebAPI\\EA.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\EA.WebAPI\\EA.WebAPI.csproj": {
+    "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\Presentation\\EA.WebAPI\\EA.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\EA.WebAPI\\EA.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\Presentation\\EA.WebAPI\\EA.WebAPI.csproj",
         "projectName": "EA.WebAPI",
-        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\EA.WebAPI\\EA.WebAPI.csproj",
+        "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\Presentation\\EA.WebAPI\\EA.WebAPI.csproj",
         "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\EA.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Architecht\\Enterprise\\EA.ProductCatalog\\Presentation\\EA.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{003B2D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1649CFB8-721B-4807-83A8-E2156D8C8E5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA.WebAPI", "EA.WebAPI\EA.WebAPI.csproj", "{88907F05-92E9-4CD8-94A9-5186662A70EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EA.WebAPI", "Presentation\EA.WebAPI\EA.WebAPI.csproj", "{1CA8A701-DAF3-4DB5-BE48-83E142D944B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,16 +21,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88907F05-92E9-4CD8-94A9-5186662A70EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88907F05-92E9-4CD8-94A9-5186662A70EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88907F05-92E9-4CD8-94A9-5186662A70EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88907F05-92E9-4CD8-94A9-5186662A70EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA8A701-DAF3-4DB5-BE48-83E142D944B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA8A701-DAF3-4DB5-BE48-83E142D944B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA8A701-DAF3-4DB5-BE48-83E142D944B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA8A701-DAF3-4DB5-BE48-83E142D944B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{88907F05-92E9-4CD8-94A9-5186662A70EB} = {A1047BF7-A9D9-4480-B09B-B0D082B1FD9A}
+		{1CA8A701-DAF3-4DB5-BE48-83E142D944B5} = {A1047BF7-A9D9-4480-B09B-B0D082B1FD9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AA78FB2-EEA8-49D2-84EA-A35DA0F4C7C6}
