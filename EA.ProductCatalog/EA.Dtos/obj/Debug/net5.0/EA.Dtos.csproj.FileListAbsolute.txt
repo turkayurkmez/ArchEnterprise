@@ -1,0 +1,12 @@
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\bin\Debug\net5.0\EA.Dtos.deps.json
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\bin\Debug\net5.0\EA.Dtos.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\bin\Debug\net5.0\ref\EA.Dtos.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\bin\Debug\net5.0\EA.Dtos.pdb
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\ref\EA.Dtos.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\EA.Dtos\obj\Debug\net5.0\EA.Dtos.pdb

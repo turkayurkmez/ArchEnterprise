@@ -1,0 +1,12 @@
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\bin\Debug\net5.0\EA.Entities.deps.json
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\bin\Debug\net5.0\EA.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\bin\Debug\net5.0\ref\EA.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\bin\Debug\net5.0\EA.Entities.pdb
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\ref\EA.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Common\EA.Entities\obj\Debug\net5.0\EA.Entities.pdb

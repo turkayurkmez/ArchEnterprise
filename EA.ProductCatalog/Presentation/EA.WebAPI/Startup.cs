@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using EA.DataAccess.Repositories;
+using EA.Services;
+using EA.Services.MappingProfile;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +32,11 @@ namespace EA.WebAPI
             //uygulama icinde ihtiyac duyulacak tum nesneler veya yapılandırmalar burada eklenir.
             
             services.AddControllers();
+
+            services.AddScoped<IProductRepository, FakeProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddAutoMapper(typeof(MapProfile));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EA.WebAPI", Version = "v1" });
