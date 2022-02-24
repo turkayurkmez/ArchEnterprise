@@ -27,10 +27,7 @@ namespace EA.DataAccess.Data
 
         }
 
-        public override int SaveChanges()
-        {
-            return base.SaveChanges();
-        }
+     
 
         public EADbContext(DbContextOptions<EADbContext> options) : base(options)
         {

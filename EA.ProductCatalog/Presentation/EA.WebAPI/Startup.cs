@@ -1,10 +1,12 @@
-﻿using EA.DataAccess.Repositories;
+﻿using EA.DataAccess.Data;
+using EA.DataAccess.Repositories;
 using EA.Services;
 using EA.Services.MappingProfile;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -30,11 +32,13 @@ namespace EA.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             //uygulama icinde ihtiyac duyulacak tum nesneler veya yapılandırmalar burada eklenir.
-            
+
             services.AddControllers();
 
-            services.AddScoped<IProductRepository, FakeProductRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
+            var connectionString = Configuration.GetConnectionString("db");
+            services.AddDbContext<EADbContext>(option => option.UseSqlServer(connectionString));
             services.AddAutoMapper(typeof(MapProfile));
 
             services.AddSwaggerGen(c =>

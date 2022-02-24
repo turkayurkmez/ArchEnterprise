@@ -9,7 +9,9 @@ C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\Dat
 C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.AssemblyInfoInputs.cache
 C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.AssemblyInfo.cs
 C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.csproj.CopyComplete
 C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.dll
 C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\ref\EA.DataAccess.dll
 C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.pdb
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\bin\Debug\net5.0\EA.DataAccess.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\bin\Debug\net5.0\EA.DataAccess.runtimeconfig.dev.json
+C:\Users\turka\source\repos\Kurumsal\Architecht\Enterprise\EA.ProductCatalog\DataAccess\EA.DataAccess\obj\Debug\net5.0\EA.DataAccess.genruntimeconfig.cache

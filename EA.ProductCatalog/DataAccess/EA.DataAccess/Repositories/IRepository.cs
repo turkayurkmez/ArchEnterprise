@@ -16,5 +16,11 @@ namespace EA.DataAccess.Repositories
         //Task<int> Add(TEntity entity);
 
         Task<IList<TEntity>> GetEntities();
+        Task<TEntity> GetEntityById(int id);
+
+        Task Add(TEntity entity);
+        Task<bool> IsEntityExist(int id);
+        Task Update(Product product);
+
     }
 }
