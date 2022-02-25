@@ -2,8 +2,10 @@
 using EA.DataAccess.Repositories;
 using EA.Services;
 using EA.Services.MappingProfile;
+using EA.WebAPI.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -38,7 +40,11 @@ namespace EA.WebAPI
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
             var connectionString = Configuration.GetConnectionString("db");
-            services.AddDbContext<EADbContext>(option => option.UseSqlServer(connectionString));
+            services.AddDbContext<EADbContext>(option =>
+            {
+                option.UseSqlServer(connectionString);
+                option.LogTo(Console.WriteLine);
+            });
             services.AddAutoMapper(typeof(MapProfile));
 
             services.AddSwaggerGen(c =>
@@ -50,6 +56,12 @@ namespace EA.WebAPI
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            //app.UseWelcomePage();
+           // app.Run(async (context) =>
+           //{
+           //    await context.Response.WriteAsync("Deneme");
+           //});
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -57,9 +69,14 @@ namespace EA.WebAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EA.WebAPI v1"));
             }
 
+
+            app.UseMiddleware<CustomMiddleware>();
+            //app.UseMiddleware<>
             app.UseHttpsRedirection();
             //app.UseBadWordFilter();
             app.UseRouting();
+
+
 
             app.UseAuthorization();
 

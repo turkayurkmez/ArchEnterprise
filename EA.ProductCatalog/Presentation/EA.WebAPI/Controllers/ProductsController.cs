@@ -2,6 +2,7 @@
 using EA.Dtos.Responses;
 using EA.Entities;
 using EA.Services;
+using EA.WebAPI.Filters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -47,7 +48,7 @@ namespace EA.WebAPI.Controllers
         }
         [HttpPut("{id}")]
         // TODO 1: IsExist Attribute'ü yazılacak:
-        //[IsExist]
+        [IsExist]
         public async Task<IActionResult> Update(int id, UpdateProductRequest request)
         {
             var existing = await productService.IsProductExists(id);
@@ -62,6 +63,14 @@ namespace EA.WebAPI.Controllers
                 return BadRequest(ModelState);
             }
             return NotFound();
+        }
+        [HttpDelete("{id}")]
+        [IsExist]
+        public async Task<IActionResult> Delete(int id)
+        {
+            return await Task.FromResult(Ok());
+
+
         }
 
 

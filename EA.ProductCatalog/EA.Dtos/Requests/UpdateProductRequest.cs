@@ -19,6 +19,7 @@ namespace EA.Dtos.Requests
         public float Discount { get; set; }
         public string ImageUrl { get; set; }
         public int CategoryId { get; set; }
+        public byte[] RowVersion { get; set; }
 
     }
 }

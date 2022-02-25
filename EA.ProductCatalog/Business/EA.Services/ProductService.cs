@@ -53,8 +53,10 @@ namespace EA.Services
         public async Task UpdateProduct(UpdateProductRequest request)
         {
             Product product = request.ConvertToEntity(mapper);
-            await repository.Update(product);
+            await repository.Update(product, request.RowVersion);
 
         }
+
+       
     }
 }

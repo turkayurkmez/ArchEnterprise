@@ -20,7 +20,7 @@ namespace EA.DataAccess.Repositories
 
         Task Add(TEntity entity);
         Task<bool> IsEntityExist(int id);
-        Task Update(Product product);
+        Task Update(TEntity product, byte[] rowVersion);
 
     }
 }

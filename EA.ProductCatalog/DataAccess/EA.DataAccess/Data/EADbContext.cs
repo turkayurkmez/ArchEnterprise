@@ -23,15 +23,16 @@ namespace EA.DataAccess.Data
                                           .HasForeignKey(p => p.CategoryId)
                                           .OnDelete(DeleteBehavior.NoAction);
 
+            modelBuilder.Entity<Product>().Property(p => p.RowVersion).IsConcurrencyToken();
 
 
         }
 
-     
+       
 
         public EADbContext(DbContextOptions<EADbContext> options) : base(options)
         {
-
+          //  this.Database.Log  
         }
 
 

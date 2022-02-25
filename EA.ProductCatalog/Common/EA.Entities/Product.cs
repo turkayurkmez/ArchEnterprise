@@ -23,6 +23,9 @@ namespace EA.Entities
         public bool IsActive { get; set; }
         public DateTime CreatedDate { get; set; }
 
+        [Timestamp]
+        public byte[] RowVersion { get; set; }
+
 
     }
 }

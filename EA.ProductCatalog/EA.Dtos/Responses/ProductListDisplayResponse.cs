@@ -15,5 +15,7 @@ namespace EA.Dtos.Responses
         public float Discount { get; set; }
         public string ImageUrl { get; set; }
 
+        public byte[] RowVersion { get; set; }
+
     }
 }
